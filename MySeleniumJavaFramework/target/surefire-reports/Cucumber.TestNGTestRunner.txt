@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Cucumber.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.817 s <<< FAILURE! -- in Cucumber.TestNGTestRunner
+Cucumber.TestNGTestRunner.runScenario["Positive test of purchasing the order", "Purchase the order from Ecommerce website"](1) -- Time elapsed: 6.265 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "MyFrameworkDeisgn.pageobjects.ConfirmationPage.getConfirmationMessage()" because "this.confirmationPage" is null
+	at MyFrameworkDesign.stepDefinitions.StepDefinitionImp.message_is_displayed_on_confirmationPage(StepDefinitionImp.java:57)
+	at ✽."THANKYOU FOR THE ORDER." message is displayed on ConfirmationPage(file:///C:/Users/findp/OneDrive/Desktop/PracticeSelenium/MySeleniumJavaFramework/src/test/java/cucumber/PurchaseOrder.feature:12)
+
